@@ -1,0 +1,124 @@
+.loading-list-alert {
+    padding: 40px 0;
+    text-align: center;
+    color: #d0544e;
+    font-size: 18px;
+    font-weight: 500;
+}
+.dashboard {
+    padding: 60px 0;
+}
+.dashboard .title{
+    font-size: 35px;
+    font-weight: 600;
+    color: #f9a51a;
+    margin-bottom: 37px;
+}
+
+.edit-input-container {
+    background-color: #f7f7f7;
+    padding: 20px 10px;
+    width: 450px;
+}
+.item-bio {
+    max-width: 300px !important;
+}
+.img-dashboard {
+    width: 200px !important;
+    height: 200px !important;
+}
+.btn-icon {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 5px;
+    color: #fff;
+}
+thead, tbody, tfoot, tr, td, th {
+    border-width: 1px !important;
+}
+.list-food-dashboard {
+    margin-top: 30px;
+}
+.list-food-dashboard .categort-name{
+    text-transform: capitalize;
+}
+
+.list-food-dashboard .categort-name{
+    text-align: center;
+    margin: 50px 0 10px;
+    font-size: 40px;
+    color: #d0544e;
+}
+
+
+.nav-tabs {
+    text-align: center;
+    border: none;
+    margin-bottom: 35px;
+    border: none !important;
+}
+@media (max-width: 1200px) {
+    .nav-tabs {
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+}
+
+.nav-tabs li {
+    display: inline-block;
+    border-bottom: 2px #e5e5e5 solid;
+    margin: 0 -2px;
+    cursor: pointer;
+}
+.nav-tabs li button {
+    display: block;
+    margin: 0 5px !important;
+    padding: 15px 10px;
+    color: #a6a6a6;
+    box-shadow: none !important;
+    font-size: 18px;
+    font-weight: 500;
+    border: none !important;
+    position: relative;
+    text-decoration: none !important;
+    background: transparent !important;
+}
+@media (max-width: 767px) {
+    .nav-tabs li button {
+        font-size: 16px;
+    }
+}
+.nav-tabs li button::after {
+    content: "";
+    height: 3px;
+    width: 100%;
+    background: #f9a51a;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+.nav-tabs li.active button::after {
+    opacity: 1;
+    visibility: visible;
+}
+.nav-tabs li:first-child button {
+    margin-right: 0 !important;
+}
+.nav-tabs li.active button {
+    color: #000;
+}
+
+
+
